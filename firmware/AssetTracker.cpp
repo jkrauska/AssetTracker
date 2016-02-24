@@ -25,6 +25,14 @@ void AssetTracker::begin(){
     // gpsOn();
 }
 
+int AssetTracker::readFixQuality(){
+    return gps.fixquality;
+}
+
+int AssetTracker::readSatellites(){
+    return gps.satellites;
+}
+
 float AssetTracker::readLat(){
     return gps.latitude;
 }
