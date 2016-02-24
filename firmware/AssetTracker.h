@@ -19,8 +19,8 @@ class AssetTracker {
     readX(void),
     readY(void),
     readZ(void),
-    readXYZmagnitude(void);
-    readFixQuality(void);
+    readXYZmagnitude(void),
+    readFixQuality(void),
     readSatellites(void);
   float
     readLat(void),
